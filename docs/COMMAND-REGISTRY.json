@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "totalCommands": 94,
+  "totalCommands": 98,
   "commands": [
     {
       "command": "aside",
@@ -499,6 +499,75 @@
         "marketing-campaign"
       ],
       "path": "commands/marketing-campaign.md"
+    },
+    {
+      "command": "media-create",
+      "description": "Create professional images, video clips, voiceovers, or music from an idea — brief, platform specs, engineered prompts, small test batch, QC, and iteration. Targets Instagram, YouTube, Telegram, and paid ads.",
+      "type": "testing",
+      "primaryAgents": [
+        "media-director"
+      ],
+      "allAgents": [
+        "media-director"
+      ],
+      "skills": [
+        "fal-ai-media",
+        "media-platform-specs",
+        "media-prompt-engineering"
+      ],
+      "path": "commands/media-create.md"
+    },
+    {
+      "command": "media-improve",
+      "description": "Turn a media review into executed fixes — loudness, reframing, subtitles, color, cleanup, trims — writing new output files and re-checking them. Works for video, image, and audio.",
+      "type": "review",
+      "primaryAgents": [
+        "media-director"
+      ],
+      "allAgents": [
+        "media-director"
+      ],
+      "skills": [
+        "audio-analysis",
+        "image-analysis",
+        "media-prompt-engineering",
+        "video-analysis"
+      ],
+      "path": "commands/media-improve.md"
+    },
+    {
+      "command": "media-repurpose",
+      "description": "Turn one video, image set, or audio recording into a multi-platform content pack — Reels, Shorts, YouTube thumbnails, Telegram posts, carousels, and ad cuts — with timestamps, hooks, captions, and export commands.",
+      "type": "general",
+      "primaryAgents": [
+        "media-director"
+      ],
+      "allAgents": [
+        "media-director"
+      ],
+      "skills": [
+        "media-platform-specs",
+        "video-analysis",
+        "videodb"
+      ],
+      "path": "commands/media-repurpose.md"
+    },
+    {
+      "command": "media-review",
+      "description": "Professional review of a video, image, or audio file — technical QC, scored creative critique, platform fit, and the top fixes. Targets Instagram, YouTube, Telegram, and paid ads.",
+      "type": "testing",
+      "primaryAgents": [
+        "media-director"
+      ],
+      "allAgents": [
+        "media-director"
+      ],
+      "skills": [
+        "audio-analysis",
+        "image-analysis",
+        "video-analysis"
+      ],
+      "path": "commands/media-review.md"
     },
     {
       "command": "model-route",
@@ -1029,14 +1098,18 @@
   "statistics": {
     "byType": {
       "build": 2,
-      "general": 10,
+      "general": 11,
       "orchestration": 11,
       "planning": 2,
       "refactoring": 1,
-      "review": 15,
-      "testing": 53
+      "review": 16,
+      "testing": 55
     },
     "topAgents": [
+      {
+        "agent": "media-director",
+        "count": 4
+      },
       {
         "agent": "dart-build-resolver",
         "count": 2
@@ -1071,10 +1144,6 @@
       },
       {
         "agent": "kotlin-reviewer",
-        "count": 1
-      },
-      {
-        "agent": "planner",
         "count": 1
       }
     ],
@@ -1112,11 +1181,11 @@
         "count": 3
       },
       {
-        "skill": "cpp-coding-standards",
-        "count": 2
+        "skill": "video-analysis",
+        "count": 3
       },
       {
-        "skill": "cpp-testing",
+        "skill": "audio-analysis",
         "count": 2
       }
     ]

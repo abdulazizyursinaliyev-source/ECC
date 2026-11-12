@@ -1,6 +1,6 @@
 # Commands Quick Reference
 
-> 94 slash commands installed globally. Type `/` in any Claude Code session to invoke.
+> 98 slash commands installed globally. Type `/` in any Claude Code session to invoke.
 
 ---
 
@@ -239,6 +239,17 @@ These lifecycle commands are also available through the `ecc` CLI.
 | Command | What it does |
 |---------|-------------|
 | `/marketing-campaign` | Plan and execute a full marketing campaign — positioning, landing page copy, email sequence, social posts, ad variants, video scripts, content calendar |
+
+---
+
+## Media (Video, Image, Audio)
+
+| Command | What it does |
+|---------|-------------|
+| `/media-review` | Professional QC and scored critique of a video, image, or audio file for Instagram, YouTube, Telegram, or ads |
+| `/media-improve` | Execute the fixes from a review (loudness, reframing, subtitles, color, cleanup) into new files and re-check them |
+| `/media-create` | Brief, engineered prompts, test batch, and QC for new images, clips, voiceovers, or music |
+| `/media-repurpose` | Turn one asset into Reels, Shorts, thumbnails, Telegram posts, carousels, and ad cuts |
 
 ---
 
