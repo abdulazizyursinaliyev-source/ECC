@@ -715,7 +715,12 @@
         "skills/video-editing",
         "skills/videodb",
         "skills/taste",
-        "skills/tasteforge-video"
+        "skills/tasteforge-video",
+        "skills/audio-analysis",
+        "skills/image-analysis",
+        "skills/media-platform-specs",
+        "skills/media-prompt-engineering",
+        "skills/video-analysis"
       ],
       "targets": [
         "claude",

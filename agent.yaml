@@ -21,6 +21,7 @@ skills:
   - api-design
   - architecture-decision-records
   - article-writing
+  - audio-analysis
   - autonomous-loops
   - backend-patterns
   - benchmark
@@ -80,6 +81,7 @@ skills:
   - healthcare-emr-patterns
   - healthcare-eval-harness
   - healthcare-phi-compliance
+  - image-analysis
   - inventory-demand-planning
   - investor-materials
   - investor-outreach
@@ -100,6 +102,8 @@ skills:
   - logistics-exception-management
   - market-research
   - mcp-server-patterns
+  - media-platform-specs
+  - media-prompt-engineering
   - motion-ui
   - nanoclaw-repl
   - nextjs-turbopack
@@ -154,6 +158,7 @@ skills:
   - token-budget-advisor
   - unified-memory
   - verification-loop
+  - video-analysis
   - video-editing
   - videodb
   - visa-doc-translate
@@ -205,6 +210,10 @@ commands:
   - loop-start
   - loop-status
   - marketing-campaign
+  - media-create
+  - media-improve
+  - media-repurpose
+  - media-review
   - model-route
   - multi-backend
   - multi-execute
